@@ -552,8 +552,8 @@ function _onComplete(tests, noOfFails, noOfErrors){
 	} else {
 				
 		if(noOfFails === 0){
-			console.log("\nPhantomCSS found " + tests.length + " tests, None of them failed. Which is good right?");
-			console.log("\nIf you want to make them fail, change some CSS.");
+			console.log("\nPhantomCSS found " + tests.length + " tests, all tests have passed. Which is good right?");
+			console.log("\nIf you want to make them unsuccessfull, change some CSS.");
 		} else {
 			console.log("\nPhantomCSS found " + tests.length + " tests, " + noOfFails + ' of them failed.');
 			if(_failures){
